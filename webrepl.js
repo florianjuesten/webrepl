@@ -280,9 +280,9 @@ function handle_put_file_select(evt) {
     reader.readAsArrayBuffer(f);
 }
 
-document.getElementById('put-file-select').addEventListener('click', function(){
-    this.value = null;
-}, false);
+// document.getElementById('put-file-select').addEventListener('click', function(){
+//     this.value = null;
+// }, false);
 
-document.getElementById('put-file-select').addEventListener('change', handle_put_file_select, false);
-document.getElementById('put-file-button').disabled = true;
+// document.getElementById('put-file-select').addEventListener('change', handle_put_file_select, false);
+// document.getElementById('put-file-button').disabled = true;
